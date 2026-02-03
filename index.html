@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Claude Workspace - Visual Workspace for Claude Code</title>
-    <meta name="description" content="Kanban board, real-time AI streaming, code editor, and Git integration — all in one beautiful, local-first workspace.">
+    <title>Claude Workspace - Multi-Vibe Workspace for Every Task</title>
+    <meta name="description" content="Multi-vibe workspace for coding, marketing, and planning. Work from anywhere with full AI integration.">
     <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="logo.png">
     <style>
@@ -205,23 +205,23 @@
         /* Vibes Section */
         .vibes {
             padding: 100px 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #ffffff;
+            background: #ffffff;
+            color: #000000;
         }
 
         .vibes h2 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             text-align: center;
             margin-bottom: 16px;
         }
 
         .vibes p {
-            font-size: 1.25rem;
+            font-size: 1.125rem;
             text-align: center;
             max-width: 700px;
             margin: 0 auto 64px;
-            opacity: 0.95;
+            color: #666;
         }
 
         .vibes-grid {
@@ -233,64 +233,65 @@
         }
 
         .vibe-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: #f9f9f9;
             padding: 40px 32px;
-            border-radius: 16px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
             transition: all 0.3s;
         }
 
         .vibe-card:hover {
-            transform: translateY(-8px);
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            border-color: #d87756;
         }
 
         .vibe-card.coding {
-            border-top: 4px solid #4ade80;
+            border-left: 3px solid #d87756;
         }
 
         .vibe-card.marketing {
-            border-top: 4px solid #fbbf24;
+            border-left: 3px solid #d87756;
         }
 
         .vibe-card.planning {
-            border-top: 4px solid #f97316;
+            border-left: 3px solid #d87756;
         }
 
         .vibe-icon {
-            width: 64px;
-            height: 64px;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 16px;
+            width: 48px;
+            height: 48px;
+            background: #ffffff;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
         }
 
         .vibe-icon svg {
-            width: 32px;
-            height: 32px;
+            width: 24px;
+            height: 24px;
         }
 
         .vibe-badge {
             display: inline-block;
-            padding: 6px 16px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 20px;
+            padding: 4px 12px;
+            background: #d87756;
+            color: #ffffff;
+            border-radius: 6px;
             font-size: 0.8125rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             margin-bottom: 16px;
         }
 
         .vibe-card h3 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
+            color: #000000;
         }
 
         .vibe-card ul {
@@ -299,18 +300,18 @@
         }
 
         .vibe-card li {
-            padding: 8px 0;
-            padding-left: 28px;
+            padding: 6px 0;
+            padding-left: 24px;
             position: relative;
             font-size: 0.9375rem;
-            opacity: 0.9;
+            color: #333;
         }
 
         .vibe-card li:before {
-            content: "✓";
+            content: "•";
             position: absolute;
             left: 0;
-            color: #4ade80;
+            color: #d87756;
             font-weight: bold;
         }
 
@@ -535,7 +536,7 @@
             <img src="logo.svg" alt="Claude Workspace">
         </div>
         <h1>Multi-Vibe Workspace for Every Task</h1>
-        <p>From coding to marketing to business — one workspace that adapts to your workflow. Work from anywhere with full AI integration.</p>
+        <p>From coding to marketing to planning — one workspace that adapts to your workflow. Work from anywhere with full AI integration.</p>
         <div class="cta-buttons">
             <a href="#" class="btn btn-primary">
                 Get Started
@@ -566,7 +567,7 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9A8.5 8.5 0 0 1 3.1 7.7 8.38 8.38 0 0 1 .9-3.8 8.5 8.5 0 0 1 7.6-4.7 8.38 8.38 0 0 1 3.8.9 8.5 8.5 0 0 1 4.7 7.6 8.38 8.38 0 0 1-.9 3.8"/>
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9A8.5 8.5 0 0 1 3.1 7.7 8.38 8.38 0 0 1 .9-3.8 8.5 8.5 0 0 1 7.6-4.7 8.38 8.38 0 0 1 3.8.9 8.5 8.5 0 0 1 4.7 7.6 8.38 8.38 0 0 1-.9 3.8 9a8.38 8.38 0 0 1 3.8-.9 8.5 8.5 0 0 1 7.6-4.7 8.38 8.38 0 0 1 3.8.9 8.5 8.5 0 0 1-4.7 7.6 8.38 8.38 0 0 1 .9-3.8"/>
                         </svg>
                     </div>
                     <h3>Real-time Streaming</h3>
@@ -585,7 +586,7 @@
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="3"/>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0 1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.82.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0 1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82V9a1.65 1.65 0 0 0 1.51-1H21a2 2 0 0 1 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
                         </svg>
                     </div>
                     <h3>Git Integration</h3>
@@ -600,17 +601,6 @@
                     <h3>Local-First</h3>
                     <p>SQLite database keeps all your data local. Your conversations, your control.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="2" y1="12" x2="22" y2="12"/>
-                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"/>
-                        </svg>
-                    </div>
-                    <h3>Access Anywhere</h3>
-                    <p><strong>Work from anywhere</strong> with secure remote access via Cloudflare Tunnel. Code, market, or manage business from any device, anywhere in the world.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -619,7 +609,7 @@
     <section class="vibes">
         <div class="container">
             <h2>Built for Every Vibe</h2>
-            <p>Whether you're coding, marketing, or running business — Claude.ws adapts to your workflow</p>
+            <p>Whether you're coding, marketing, or planning — Claude.ws adapts to your workflow</p>
             <div class="vibes-grid">
                 <div class="vibe-card coding">
                     <div class="vibe-icon">

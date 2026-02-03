@@ -1,0 +1,112 @@
+/* Vibes Section */
+        .vibes {
+            padding: 100px 20px;
+            background: #ffffff;
+            color: #000000;
+        }
+
+        .vibes h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+
+        .vibes p {
+            font-size: 1.125rem;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 64px;
+            color: #666;
+        }
+
+        .vibes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .vibe-card {
+            background: #f9f9f9;
+            padding: 40px 32px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            transition: all 0.3s;
+        }
+
+        .vibe-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            border-color: #d87756;
+        }
+
+        .vibe-card.coding {
+            border-left: 3px solid #d87756;
+        }
+
+        .vibe-card.marketing {
+            border-left: 3px solid #d87756;
+        }
+
+        .vibe-card.planning {
+            border-left: 3px solid #d87756;
+        }
+
+        .vibe-icon {
+            width: 48px;
+            height: 48px;
+            background: #ffffff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .vibe-icon svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .vibe-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #d87756;
+            color: #ffffff;
+            border-radius: 6px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+
+        .vibe-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #000000;
+        }
+
+        .vibe-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .vibe-card li {
+            padding: 6px 0;
+            padding-left: 24px;
+            position: relative;
+            font-size: 0.9375rem;
+            color: #333;
+        }
+
+        .vibe-card li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #d87756;
+            font-weight: bold;
+        }
